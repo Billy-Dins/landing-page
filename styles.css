@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+.header-logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+/* ------------------------------------ */
+/* This is where the first block starts */
+/* ------------------------------------ */
+
+.block1{
+    display: flex;
+    flex: 1 1 auto;
+    height: 350px;
+}
+.container1{
+    display: flex;
+    flex: 1 1 auto;
+    padding: 0 100px 100px;
+    width: 800px;
+    flex-direction: column;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    flex: 1 1 auto;
+    margin-right: 25px;
+    height: 175px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.heroM{
+    font-size: 48px;
+    line-height: 35px;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+.heroS{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 25px;
+}
+.box2{
+    flex: 1 1 auto;
+    color: #E5E7EB;
+    height: 175px;
+    width: 400px;
+    background-color: rgb(102, 104, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------------- */
+/* This is where the second block starts */
+/* ------------------------------------- */
+
+.block2{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    height: 375px;
+}
+.information{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 25px;
+}
+.box-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.blue-box{
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.box-item{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: 160px;
+}
+
+/* ------------------------------------ */
+/* This is where the third block starts */
+/* ------------------------------------ */
+
+.block3{
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    height: 350px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+}
+.quote{
+    margin: 0 200px 0 200px;
+    font-style: italic;
+}
+.thor{
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+}
+
+/* ------------------------------------- */
+/* This is where the fourth block starts */
+/* ------------------------------------- */
+
+.block4{
+    display: flex;
+    flex: 1 0 auto;
+    height: 200px;
+}
+footer{
+    height: 75px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block1, footer{
+    background-color: #1F2937;
+}
+ul{
+    list-style: none;
+    display:flex;
+    gap: 16px;
+    color: white;
+}
+li{
+    text-decoration: none;
+}
