@@ -15,11 +15,9 @@ header{
     font-size: 24px;
     color: #F9FAF8
 }
-
-/* ------------------------------------ */
-/* This is where the first block starts */
-/* ------------------------------------ */
-
+/* ----------------------------------------- */
+/* This is where the navy first block starts */
+/* ----------------------------------------- */
 .block1{
     display: flex;
     flex: 1 1 auto;
@@ -73,11 +71,9 @@ button{
     justify-content: center;
     align-items: center;
 }
-
-/* ------------------------------------- */
-/* This is where the second block starts */
-/* ------------------------------------- */
-
+/* ------------------------------------------- */
+/* This is where the white second block starts */
+/* ------------------------------------------- */
 .block2{
     display: flex;
     flex-direction: column;
@@ -112,14 +108,11 @@ button{
     height: 200px;
     width: 160px;
 }
-
-/* ------------------------------------ */
-/* This is where the third block starts */
-/* ------------------------------------ */
-
+/* ----------------------------------------- */
+/* This is where the grey third block starts */
+/* ----------------------------------------- */
 .block3{
     display: flex;
-    flex: 1 0 auto;
     flex-direction: column;
     height: 350px;
     background-color: #E5E7EB;
@@ -127,26 +120,51 @@ button{
     font-size: 36px;
     font-style: italic;
     justify-content: center;
+    align-items: center;
 }
-.quote{
+.quote-container{
     margin: 0 200px 0 200px;
     font-style: italic;
 }
-.thor{
-    font-weight: bold;
+.quote{
     display: flex;
-    justify-content: right;
+    height: 200px;
+    width: 900px;
 }
-
-/* ------------------------------------- */
-/* This is where the fourth block starts */
-/* ------------------------------------- */
-
+.thor{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+/* ------------------------------------------------ */
+/* This is where the white/blue fourth block starts */
+/* ------------------------------------------------ */
 .block4{
     display: flex;
     flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
     height: 200px;
 }
+.blue-container{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    height: 100px;
+    width: 1000px;
+}
+.blue-container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 200px;
+    color:#E5E7Eb;
+}
+/* ----------------------------- */
+/* This is where the rest starts */
+/* ----------------------------- */
 footer{
     height: 75px;
     color: white;
